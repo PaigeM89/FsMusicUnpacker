@@ -1,7 +1,7 @@
 module Archives
-open Types
 open System.IO
 open System.IO.Compression
+open Types
 
 let createFileStream (x : FileInfo) = 
     try
